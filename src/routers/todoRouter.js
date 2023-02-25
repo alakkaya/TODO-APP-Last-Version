@@ -11,4 +11,5 @@ router.delete("/todo/:id", todoController.todoDelete)
 
 router.get("/todo/:id", todoController.todoGet)   //belirli istenilen id için nesne getirmek
 
+
 module.exports = router
